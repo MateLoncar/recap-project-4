@@ -13,7 +13,6 @@ function App() {
         "https://example-apis.vercel.app/api/weather"
       );
       const data = await response.json();
-      console.log(data);
       setWeather(data);
     }
     fetchWeather();
