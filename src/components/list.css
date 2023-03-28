@@ -1,0 +1,33 @@
+.list {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.list li:last-child {
+  margin-bottom: 0;
+}
+
+.list li .name {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.list li .weather {
+  font-style: italic;
+}
+
+.background-new-input {
+  background-color: gray;
+  color: white;
+}
